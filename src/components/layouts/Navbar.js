@@ -1,26 +1,27 @@
 import React from "react";
 import './Navbar.scss';
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <nav class="navbar navbar-light bg-light">
-            <a className="navbar-brand" href="www.google.com">LOGO</a>
+            <NavLink className="navbar-brand" exact to="/">LOGO</NavLink>
             <div className="react-nav">
                 <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="www.google.com">MEN <span class="sr-only">(current)</span></a>
+                    <li className="nav-item">
+                        <NavLink className="nav-Nav" exact to="/">MEN </NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="www.google.com">WOMEN</a>
+                        <NavLink className="nav-link" exact to="/Women">WOMEN </NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="www.google.com">KIDS</a>
+                        <NavLink className="nav-link" exact to="/Kids">KIDS </NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="www.google.com">FTW</a>
+                        <NavLink className="nav-link" exact to="/Ftw">FTW</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="www.google.com">ACCESSORIES</a>
+                        <NavLink className="nav-link" exact to="/Accessories">ACCESSORIES</NavLink>
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">                    

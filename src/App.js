@@ -3,13 +3,21 @@ import logo from './logo.svg';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/layouts/Navbar';
+import Men from './components/pages/Men';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import NotFound from './components/pages/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Men} />
+          <Route component={NotFound} />
+        </Switch>   
+      </div>
+    </Router>
   );
 }
 
