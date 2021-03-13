@@ -1,0 +1,41 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Tiger Medium Red",
+        "price": 250,
+        "description": "Tiger Medium Red description",
+        "category": "Men",
+        "imageUrl": "http://localhost:3003/images/t-shirt-2.jpg"
+
+      },
+      {
+        "id": 2,
+        "title": "Tiger Medium White",
+        "price": 230,
+        "description": "Tiger Medium White description",
+        "category": "Men",
+        "imageUrl": "http://localhost:3003/images/t-shirt-3.jpg"
+
+      },      
+      
+      {
+        "id": 3,
+        "title": "Tiger Medium Blue",
+        "price": 240,
+        "description": "Tiger Medium Blue description",
+        "category": "Men",
+        "imageUrl": "http://localhost:3003/images/t-shirt-4.jpg"
+
+      },
+      {
+        "id": 4,
+        "title": "Tiger Medium Pink",
+        "price": 260,
+        "description": "Tiger Medium Blue description",
+        "category": "Men",
+        "imageUrl": " http://localhost:3003/images/t-shirt-5.jpg"
+
+      }
+    ]
+  }
