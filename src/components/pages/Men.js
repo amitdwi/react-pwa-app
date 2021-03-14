@@ -19,10 +19,9 @@ const Men = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-12 col-md-10 col-lg-8 mx-auto mt-5">
+                <div className="col-12 col-md-10 col-lg-8 mx-auto mb-5">
                     <h1> Shop for Men </h1>
                     <div className="row">
-
                         {products.map((product, index) => (
                             <div className="col-12 col-md-6 mt-5">
                                 <Link className="product-link" to={`/products/${product.id}`}>

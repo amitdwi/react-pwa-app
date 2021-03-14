@@ -26,8 +26,8 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">                    
-                    <div class="form-group has-search">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    <div class="form-group has-search mb-2 w-100">
+                        <input className="form-control mr-sm-2 w-100" type="search" placeholder="Search" aria-label="Search" />
                         <span class="fa fa-search form-control-feedback"></span>
                     </div>
                 </form>
