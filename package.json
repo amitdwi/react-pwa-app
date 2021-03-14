@@ -30,9 +30,9 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm start\" \"npm run json-server\"",
+    "start": "react-scripts start",
     "json-server": "json-server --watch db.json --port 3003",
-    "start:dev": "react-scripts start",
+    "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
