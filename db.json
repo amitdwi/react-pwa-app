@@ -6,7 +6,7 @@
         "price": 250,
         "description": "Tiger Medium Red description",
         "category": "Men",
-        "imageUrl": "http://localhost:3003/images/t-shirt-2.jpg"
+        "imageUrl": "../images/t-shirt-2.jpg"
 
       },
       {
@@ -15,7 +15,7 @@
         "price": 230,
         "description": "Tiger Medium White description",
         "category": "Men",
-        "imageUrl": "http://localhost:3003/images/t-shirt-3.jpg"
+        "imageUrl": "../images/t-shirt-3.jpg"
 
       },      
       
@@ -25,7 +25,7 @@
         "price": 240,
         "description": "Tiger Medium Blue description",
         "category": "Men",
-        "imageUrl": "http://localhost:3003/images/t-shirt-4.jpg"
+        "imageUrl": "../images/t-shirt-4.jpg"
 
       },
       {
@@ -34,7 +34,7 @@
         "price": 260,
         "description": "Tiger Medium Blue description",
         "category": "Men",
-        "imageUrl": " http://localhost:3003/images/t-shirt-5.jpg"
+        "imageUrl": " ../images/t-shirt-5.jpg"
 
       }
     ]
