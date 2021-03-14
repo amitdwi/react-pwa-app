@@ -4,7 +4,8 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light container">
+            <div className="col-12 col-md-10 col-lg-8 mx-auto  bg-light">
             <NavLink className="navbar-brand" exact to="/">LOGO</NavLink>
             <div className="react-nav">
                 <ul className="navbar-nav mr-auto">
@@ -30,6 +31,7 @@ const Navbar = () => {
                         <span class="fa fa-search form-control-feedback"></span>
                     </div>
                 </form>
+            </div>
             </div>
         </nav>
     );
